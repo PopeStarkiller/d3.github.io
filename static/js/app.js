@@ -35,7 +35,7 @@ d3.json("samples.json").then((importedData) => {
                   var data3 = [trace2];
                   
                   var layout = {
-                    title: 'Marker Size and Color',
+                    title: 'OTU Sample sizes',
                     showlegend: false,
                     height: 600,
                     width: 600
@@ -151,7 +151,7 @@ otuId.forEach(function(num) {
               var data3 = [trace2];
               
               var layout = {
-                title: 'Marker Size and Color',
+                title: 'OTU Sample sizes',
                 showlegend: false,
                 height: 600,
                 width: 600
